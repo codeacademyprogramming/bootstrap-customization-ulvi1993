@@ -1,0 +1,323 @@
+.main{
+    height: 100vh;
+    background:linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url('https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    nav{
+        height: 20%;
+        padding: 3rem;
+       
+        .header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            & > a{
+              color: rgba(255, 255, 255, 0.7);
+              font-size: 2rem;
+              font-weight: 700;
+              &:hover{
+                  color: $color-secondary;
+              }
+            }
+            ul{
+                display: flex;
+                font-size: 1.6rem;
+                li{
+                  margin-right: 2rem;
+                  a{
+                    color: rgba(255, 255, 255, 0.7);
+                    &:hover{
+                        color: $color-secondary;
+                    }
+                   }
+                  
+                }
+              @media screen and (max-width: 400px) {
+                display: none;
+              }
+
+            }
+            svg{
+                display: none;
+
+                @media screen and (max-width: 400px) {
+                    display: block;
+                }
+            }
+    
+        }
+        
+    }
+    .main-title{
+        height: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1{
+            font-size: 6rem;
+            color: $color-secondary;
+            font-weight: 500;
+            width: 50%;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        hr{
+            height: 0.4rem;
+            width: 5rem;
+            background-color: $color-primary;
+            border: 0;
+            margin-bottom: 2rem;
+        }
+        p{
+            font-size: 2rem;
+            color: rgba(255, 255, 255, 0.75);
+            text-align: center;
+            width: 50%;
+            font-weight: 400;
+            margin-bottom: 6rem;
+        }
+        button{
+            padding: 2rem 3rem;
+            font-weight: 700;
+            border: none;
+            border-radius: 12rem;
+            background-color: $color-primary;
+            color: $color-secondary;
+            cursor: pointer;
+        }
+    }
+
+    
+}
+
+.help{
+    background-color: $color-primary;
+    padding: 10rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+        font-size: 3.5rem;
+        color: $color-secondary;
+        font-weight: 500;
+        width: 50%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    hr{
+        height: 0.4rem;
+        width: 5rem;
+        background-color: $color-secondary;
+        border: 0;
+        margin-bottom: 2rem;
+    }
+    p{
+        font-size: 1.8rem;
+        color: rgba(255, 255, 255, 0.75);
+        text-align: center;
+        width: 55%;
+        font-weight: 400;
+        margin-bottom: 3rem;
+    }
+    button{
+        padding: 2rem 3rem;
+        font-weight: 700;
+        border: none;
+        border-radius: 12rem;
+        background-color: $color-secondary;
+        color: $color-tertiary;
+        cursor: pointer;
+    }
+    
+}
+
+.service{
+    background-color: $color-secondary;
+    padding: 10rem 0;
+    .container{
+        h2{
+            font-size: 3.5rem;
+            color: $color-tertiary;
+            font-weight: 500;
+            width: 50%;
+            text-align: center;
+            margin: 2rem auto;
+        }
+        hr{
+            height: 0.4rem;
+            width: 5rem;
+            background-color: $color-primary;
+            border: 0;
+            margin: 2rem auto;
+            margin-bottom: 5rem;
+        }
+        .col-3, .col-md-6{
+            text-align: center;
+            i{
+                display: block;
+                font-size: 4rem;
+                color: $color-primary;
+                text-align: center;
+                margin-bottom: 2rem;
+            }
+            h3{
+                font-size: 2.5rem;
+                font-weight: 500;
+                margin-bottom: 1rem;
+
+            }
+            p{
+                color: #6c757d ;
+                text-align: center;
+                width: 90%;
+                font-size: 1.8rem ;
+                font-weight: 500;
+                margin: 0 auto;
+                padding-bottom: 2rem;
+            }
+
+        }
+        
+
+    }
+    
+        
+
+    
+    
+}
+
+.portfolio{
+    .container-fluid{
+        padding: 0;
+        .row{
+            .col-lg-4{
+                .img{
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+.download{
+    background-color: #212529 ;
+    padding: 10rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+        font-size: 3.5rem;
+        color: $color-secondary;
+        font-weight: 500;
+        width: 50%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    button{
+        padding: 2rem 3rem;
+        font-weight: 700;
+        border: none;
+        border-radius: 12rem;
+        background-color: $color-secondary;
+        color: $color-tertiary;
+        cursor: pointer;
+    }
+    
+}
+
+.contact{
+    background-color: $color-secondary;
+    padding: 10rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+        font-size: 3.5rem;
+        color: $color-tertiary;
+        font-weight: 500;
+        width: 50%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    hr{
+        height: 0.4rem;
+        width: 5rem;
+        background-color: $color-primary;
+        border: 0;
+        margin-bottom: 2rem;
+    }
+    p{
+        font-size: 1.8rem;
+        color: #6c757d;
+        text-align: center;
+        width: 40%;
+        font-weight: 400;
+        margin-bottom: 4rem;
+    }
+
+    input{
+        width: 50rem;
+        height: 5rem;
+        margin-bottom: 2rem;
+        border-radius: 0.3rem;
+        border: 1px solid rgb(133, 130, 130);
+    }
+
+    textarea{
+        width: 50rem;
+        height: 15rem;
+        margin-bottom: 2rem;
+        border-radius: 0.3rem;
+        border: 1px solid rgb(133, 130, 130);
+    }
+    button{
+        padding: 2rem 22rem;
+        font-weight: 700;
+        border: none;
+        border-radius: 12rem;
+        background-color: #f4623a;
+        opacity: 0.65;
+        color: $color-secondary;
+        margin-bottom: 4rem;
+    }
+    i{
+        font-size: 3rem;
+        color: #6c757d;
+        margin-bottom: 1rem;
+    }
+    span{
+        font-size: 1.5rem;
+        opacity: 0.7;
+
+
+    }
+    
+}
+
+footer{
+    background-color: #f8f9fa ;
+    padding: 6rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .footer-text{
+        color: #6c757d ;
+        font-size: 1.4rem;
+    }
+}
+
+
+
+
+
+
