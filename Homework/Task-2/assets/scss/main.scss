@@ -1,0 +1,23 @@
+// Bootstrap - Grid
+@import "../vendors/bootstrap-5.0.2/scss/bootstrap-grid.scss";
+
+// Bootstrap - Dependencies
+@import "../vendors/bootstrap-5.0.2/scss/mixins";
+
+// Bootstrap - Components
+@import "../vendors/bootstrap-5.0.2/scss/accordion";
+@import "../vendors/bootstrap-5.0.2/scss/buttons";
+@import "../vendors/bootstrap-5.0.2/scss/list-group";
+
+// Variables
+@import "./variables/colors";
+@import "./variables/spacing";
+
+
+// Typography
+@import "./typography";
+@import "./reset";
+
+
+// Pages
+@import "./pages/index";
